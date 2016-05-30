@@ -1,0 +1,275 @@
+/*! Origin v1.0.0 | http://origin.plue.me | MIT License */
+
+/*
+Set global font format
+*/
+
+html,
+textarea {
+  font-family: "open sans", helvetica, arial, sans-serif;
+  font-size: 16px;
+}
+
+body {
+  color: #444;
+  line-height: 1.4;
+}
+
+/*
+Style anchors
+*/
+
+a {
+  color: #cc3333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*
+Style headlines
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+  line-height: 1.2;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+/*
+Define space underneath visually separating elements
+*/
+
+p,
+ul,
+ol,
+form,
+table,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 .7em;
+}
+
+/*
+Style blockquotes
+*/
+
+blockquote {
+  font-style: italic;
+  margin: .7em 30px;
+}
+
+/*
+Scale images responsively
+*/
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: top;
+  width: auto\9;
+}
+
+/*
+Style horizontal line
+*/
+
+hr {
+  border: 0;
+  border-top: 1px solid #ddd;
+  margin: 2em 0;
+}
+
+/*
+Reset outlines
+*/
+
+:hover,
+:focus,
+:active,
+a:focus {
+  outline: 0;
+}
+
+/*
+Style tables
+*/
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border-bottom: 1px solid #ccc;
+  padding: .4em 1.5em;
+  text-align: left;
+}
+
+/*
+Style lists
+*/
+
+ol {
+  padding-left: 1.5em;
+}
+
+ul {
+  list-style: outside;
+  padding-left: 1.3em;
+}
+
+ul ul {
+  list-style: circle;
+  margin: 0;
+  padding-left: 1.7em;
+}
+
+/*
+Reset list style in navigation
+*/
+
+nav ul,
+nav ul ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/*
+Style pre and code
+*/
+
+pre, 
+code {
+  font-family: monaco, monospace, courier;
+}
+
+code {
+  background: #f9f9f9;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  font-size: .8em;
+  padding: .1em .2em;
+}
+
+pre code {
+  display: inline-block;
+  padding: .5em .8em;
+}
+
+/*
+Tweak webkit placeholder text
+*/
+
+::-webkit-input-placeholder {
+  line-height: normal;
+}
+
+/*
+Input form elements
+*/
+
+.input {
+  border: 1px solid #ccc;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: inherit;
+  line-height: normal;
+  padding: .55em;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.input:focus {
+  border-color: #aaa;
+}
+
+textarea.input {
+  height: 70px;
+  min-height: 70px;
+  max-height: 150px;
+  resize: vertical;
+}
+
+/*
+Buttons
+*/
+
+.btn {
+  background: #444;
+  border: 0;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #eee;
+  display: inline-block;
+  font-size: .9em;
+  line-height: normal;
+  overflow: visible;
+  padding: .45em .6em;
+  vertical-align: middle;
+  margin: .5em 0;
+}
+
+.btn:hover {
+  background: #222;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn:active,
+.btn.active {
+  background: #444;
+}
+
+/*
+Clear helper
+*/
+
+.cf {
+  zoom: 1;
+}
+
+.cf:before,
+.cf:after {
+  content: "";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.clear {
+  clear: both;
+  display: block;
+}
