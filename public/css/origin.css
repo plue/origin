@@ -1,4 +1,4 @@
-/*! Origin v1.0.0 | http://origin.plue.me | MIT License */
+/*! Origin v1.1.0 | https://origin.plue.me | MIT License */
 
 /*
 Set global font format
@@ -16,7 +16,7 @@ body {
 }
 
 /*
-Style anchors
+Style links
 */
 
 a {
@@ -44,17 +44,9 @@ h6 {
   margin: 0;
 }
 
-h1 {
-  font-size: 2em;
-}
-
-h2 {
-  font-size: 1.6em;
-}
-
-h3 {
-  font-size: 1.2em;
-}
+h1 { font-size: 2em }
+h2 { font-size: 1.6em }
+h3 { font-size: 1.2em }
 
 /*
 Define space underneath visually separating elements
