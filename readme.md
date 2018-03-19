@@ -8,20 +8,20 @@ Powered by [Normalize.css](https://necolas.github.io/normalize.css), [Respond.js
 
 Solid. Basic. Ready.  
 
-# Helper classes
+## Helper Classes
 
 `.input` `.btn` `.cf` `.clear`
 
-# Browser Support
+## Browser Support
 
 Chrome, Firefox, Opera, Safari, IE 8+
 
-# License
+## License
 
 Copyright © Plue 2018  
 MIT License
 
-# Changelog
+## Changelog
 
 v1.1.0  
 * Update normalize.css
