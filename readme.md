@@ -14,14 +14,19 @@ Solid. Basic. Ready.
 
 ## Browser Support
 
-Chrome, Firefox, Opera, Safari, IE 8+
+Chrome, Firefox, Opera, Safari, Edge, IE 9+
 
 ## License
 
-Copyright © Plue 2018  
+Copyright © plue 2019 
 MIT License
 
 ## Changelog
+
+v1.2.0  
+* Tweak base styles
+* Update normalize.css
+* Remove support for IE <= 8
 
 v1.1.0  
 * Update normalize.css

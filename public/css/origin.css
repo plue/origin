@@ -1,4 +1,17 @@
-/*! Origin v1.1.0 | https://origin.plue.me | MIT License */
+/*! Origin v1.2.0 | https://origin.plue.me | MIT License */
+
+/*
+Set global layout
+*/
+
+html * {
+  box-sizing: border-box;
+}
+
+video,
+audio {
+  display: block;
+}
 
 /*
 Set global font format
@@ -6,13 +19,15 @@ Set global font format
 
 html,
 textarea {
-  font-family: "open sans", helvetica, arial, sans-serif;
+  font-family: verdana, arial, sans-serif;
   font-size: 16px;
 }
 
 body {
   color: #444;
   line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /*
@@ -129,18 +144,13 @@ th {
 Style lists
 */
 
-ol {
-  padding-left: 1.5em;
-}
-
 ul {
   list-style: outside;
-  padding-left: 1.3em;
 }
 
 ul ul {
   list-style: circle;
-  margin: 0;
+  margin-bottom: 0;
   padding-left: 1.7em;
 }
 
@@ -152,6 +162,7 @@ nav ul,
 nav ul ul {
   list-style: none;
   padding-left: 0;
+  margin-bottom: 0;
 }
 
 /*
@@ -166,8 +177,6 @@ code {
 code {
   background: #f9f9f9;
   border: 1px solid #ccc;
-  -webkit-border-radius: 4px;
-  border-radius: 4px;
   font-size: .8em;
   padding: .1em .2em;
 }
@@ -191,8 +200,6 @@ Input form elements
 
 .input {
   border: 1px solid #ccc;
-  -webkit-border-radius: 4px;
-  border-radius: 4px;
   box-sizing: border-box;
   color: inherit;
   line-height: normal;
@@ -219,8 +226,6 @@ Buttons
 .btn {
   background: #444;
   border: 0;
-  -webkit-border-radius: 4px;
-  border-radius: 4px;
   cursor: pointer;
   color: #eee;
   display: inline-block;
