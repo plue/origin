@@ -1,4 +1,4 @@
-/*! Origin v1.2.0 | https://origin.plue.me | MIT License */
+/*! Origin v1.2.1 | https://origin.plue.me | MIT License */
 
 /*
 Set global layout
@@ -251,10 +251,6 @@ Buttons
 /*
 Clear helper
 */
-
-.cf {
-  zoom: 1;
-}
 
 .cf:before,
 .cf:after {

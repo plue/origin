@@ -18,10 +18,13 @@ Chrome, Firefox, Opera, Safari, Edge, IE 9+
 
 ## License
 
-Copyright © plue 2019 
+Copyright © plue 2020 
 MIT License
 
 ## Changelog
+
+v1.2.1  
+* Remove deprecated zoom
 
 v1.2.0  
 * Tweak base styles
