@@ -2,26 +2,35 @@
 # Origin
 
 A minimalist web template.  
-[https://origin.plue.me](https://origin.plue.me)  
+[https://origin.plue.es](https://origin.plue.es)  
 
-Powered by [Normalize.css](https://necolas.github.io/normalize.css), [Respond.js](https://github.com/scottjehl/Respond#respondjs), [HTML5 Shiv](https://github.com/afarkas/html5shiv#the-html5-shiv).  
+Powered by [Normalize.css](https://necolas.github.io/normalize.css).
 
 Solid. Basic. Ready.  
 
-## Helper Classes
-
-`.input` `.btn` `.cf` `.clear`
 
 ## Browser Support
 
-Chrome, Firefox, Opera, Safari, Edge, IE 9+
+Chrome, Firefox, Opera, Safari, Edge
+
+
+## Style Classes
+
+`.input` `.btn`
+
 
 ## License
 
-Copyright © plue 2020 
+Copyright © [plue](https://plue.es) 2020 
+
 MIT License
 
+
 ## Changelog
+
+v1.3.0  
+* Tweak appearance and units
+* Remove .clear and .cf
 
 v1.2.1  
 * Remove deprecated zoom

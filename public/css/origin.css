@@ -1,4 +1,4 @@
-/*! Origin v1.2.1 | https://origin.plue.me | MIT License */
+/*! Origin v1.3.0 | https://origin.plue.es | MIT License */
 
 /*
 Set global layout
@@ -24,7 +24,7 @@ textarea {
 }
 
 body {
-  color: #444;
+  color: #222;
   line-height: 1.4;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -35,7 +35,7 @@ Style links
 */
 
 a {
-  color: #cc3333;
+  color: #34b6a5;
   text-decoration: none;
 }
 
@@ -55,13 +55,14 @@ h5,
 h6 {
   font-size: 100%;
   font-weight: normal;
-  line-height: 1.2;
+  line-height: 1.25;
   margin: 0;
 }
 
-h1 { font-size: 2em }
-h2 { font-size: 1.6em }
-h3 { font-size: 1.2em }
+h1 { font-size: 2rem }
+h2 { font-size: 1.6rem }
+h3 { font-size: 1.2rem }
+h4 { font-weight: bold }
 
 /*
 Define space underneath visually separating elements
@@ -79,7 +80,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0 0 .7em;
+  margin: 0 0 0.7rem;
 }
 
 /*
@@ -88,7 +89,7 @@ Style blockquotes
 
 blockquote {
   font-style: italic;
-  margin: .7em 30px;
+  margin: 0.7rem 30px;
 }
 
 /*
@@ -108,7 +109,7 @@ Style horizontal line
 
 hr {
   border: 0;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #dedede;
   margin: 2em 0;
 }
 
@@ -135,9 +136,14 @@ table {
 
 td,
 th {
-  border-bottom: 1px solid #ccc;
-  padding: .4em 1.5em;
+  border-bottom: 1px solid #dedede;
+  padding: 7px 13px;
   text-align: left;
+}
+
+th {
+  font-size: 0.8rem;
+  font-weight: normal;
 }
 
 /*
@@ -146,12 +152,17 @@ Style lists
 
 ul {
   list-style: outside;
+  padding-left: 1.7em;
 }
 
 ul ul {
   list-style: circle;
   margin-bottom: 0;
-  padding-left: 1.7em;
+  padding-left: 1em;
+}
+
+ol {
+  padding-left: 2em;
 }
 
 /*
@@ -175,9 +186,9 @@ code {
 }
 
 code {
-  background: #f9f9f9;
-  border: 1px solid #ccc;
-  font-size: .8em;
+  background: #f7f7f7;
+  border: 1px solid #dedede;
+  font-size: .8rem;
   padding: .1em .2em;
 }
 
@@ -199,7 +210,7 @@ Input form elements
 */
 
 .input {
-  border: 1px solid #ccc;
+  border: 1px solid #dedede;
   box-sizing: border-box;
   color: inherit;
   line-height: normal;
@@ -224,45 +235,28 @@ Buttons
 */
 
 .btn {
-  background: #444;
+  background: #222;
   border: 0;
   cursor: pointer;
   color: #eee;
   display: inline-block;
-  font-size: .9em;
+  font-size: 0.9rem;
   line-height: normal;
   overflow: visible;
-  padding: .45em .6em;
+  padding: 7px 12px;
   vertical-align: middle;
-  margin: .5em 0;
+  margin: 0.5rem 0;
+  -moz-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
 }
 
 .btn:hover {
-  background: #222;
+  background: #000;
   color: #fff;
   text-decoration: none;
 }
 
 .btn:active,
 .btn.active {
-  background: #444;
-}
-
-/*
-Clear helper
-*/
-
-.cf:before,
-.cf:after {
-  content: "";
-  display: table;
-}
-
-.cf:after {
-  clear: both;
-}
-
-.clear {
-  clear: both;
-  display: block;
+  background: #333;
 }
